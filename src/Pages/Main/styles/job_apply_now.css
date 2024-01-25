@@ -1,0 +1,18 @@
+.back_img{
+	background-image: url(../../../assets/Jobs/job_apply_now_bg.png);
+	 background-position: center;
+	   background-repeat: no-repeat;
+	   height: 255px;
+	   background-size:cover;
+	   border-radius: 10px;
+	   color: white;
+       border-radius: 15px;
+}
+@media (max-width: 576px) {
+    .Hfs_16{
+        font-size: 20px;
+      }
+    .Pfs_12{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,12 @@
+.letter {
+    transition: opacity 5s ease-in-out;
+  }
+  
+  .letter.visible {
+    opacity: 1;
+  }
+  @media (max-width: 767px) {
+    .img_{
+        display: none;
+    }
+  }

@@ -1,0 +1,118 @@
+.back_img{
+	background-image: url(../../../assets/ContactUs/contectUs_background.png);
+	 background-position: center;
+	   background-repeat: no-repeat;
+	   height: 255px;
+	   background-size:cover;
+	   border-radius: 10px;
+	   color: white;
+       border-radius: 15px;
+}
+.back_Client{
+	background-image: url(../../../assets/Home/background.png);
+	 background-position: center;
+	   background-repeat: no-repeat;
+	   height: auto;
+	   background-size:cover;
+	   border-radius: 10px;
+	   color: white;
+       border-radius: 15px;
+}
+.Contact_btn{
+    border-style: none;
+    background-color: #A8CF45;
+    border-radius: 5px;
+}
+.play_img{
+    height: 40px;
+    width: 40px;
+}
+.OurPartner_style{
+    width: 90px;
+  }
+  /* video on text */
+  video {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .overlay {
+    position: absolute;
+    /* min-height: 100vh; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .overlay h2 {
+     color: black;
+      font-weight: 600;
+      margin: 2rem 3rem 0;
+      mix-blend-mode: overlay;
+      padding: 5px 15px;
+      text-align: center;
+  }
+  .overlay .Apply {
+    color: white;
+    background-color: #BDDA71;
+    position: absolute;
+    left: 68px;
+    /* color: black; */
+     font-weight: 600;
+     /* margin: 2rem 3rem 0; */
+     mix-blend-mode: overlay;
+     /* padding: 5px 15px; */
+     /* text-align: center; */
+ }
+ .overlay .Apply:focus {
+  background-color: #BDDA71;
+  color: white;
+}
+.overlay .Apply:hover {
+  background-color: #BDDA71;
+  color: white;
+}
+.playbtn img{
+  height: 50px;
+  width: 50px;
+}
+.playbtn{
+  position: absolute;
+  top: 68px;
+  right: 0;
+
+}
+  /* video on text end */
+  #map{
+    border-radius: 10px;
+    width:80%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .fs_18{
+    font-size: 18px;
+  }
+  .imag_size{
+    height: 20px;
+    width: 24px;
+  }
+  .Place_imag_size{
+    height: 25px;
+    width: 17px;
+  }
+
+@media (max-width: 991px) {
+    #map{
+        width:100%;;
+      }
+}
+@media (max-width: 767px) {
+    #map{
+        width:100%;;
+      }
+}

@@ -1,0 +1,156 @@
+.my-component ul li a,
+.my-component ul li {
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.my-component ul li {
+  display: block;
+}
+
+.my-component ul li a {
+  color: #fff;
+  display: block;
+}
+
+.my-component li a:hover {
+ 
+  /* color: #111; */
+}
+
+.my-component ul li ul {
+  background: #fff;
+  padding-left: 5px;
+  position: absolute;
+  width: 10em;
+  display: none;
+}
+
+.my-component li ul li a {
+  padding: 10px;
+  color: #fff;
+}
+
+
+.my-component ul li ul li {
+  position: relative;
+}
+
+.my-component ul li ul li ul {
+  position: absolute;
+  top: 5px;
+  left: 100%;
+}
+
+.my-component li:hover > ul,
+.my-component li:active > ul {
+  display: block;
+}
+
+.my-component .dropdown {
+  position: relative;
+}
+
+/* .my-component .dropdown > a,
+.my-component .dropdown > a:hover,
+.my-component .dropdown.active > a,
+.my-component .dropdown.active > a:hover {
+  background: url("https://i.postimg.cc/y8b7mfcJ/arrow.png");
+  background-position: right;
+  background-size: 15px;
+  background-repeat: no-repeat;
+} */
+
+@media screen and (max-width: 768px) {
+  .my-component .mobile-nav {
+    display: flex;
+  }
+
+  .my-component ul.nav {
+    visibility: hidden;
+    transform: translateY(-120%);
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  .my-component ul.nav.toggle {
+    visibility: visible;
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .my-component ul {
+    flex-direction: column;
+  }
+  .my-component ul li {
+    overflow: hidden;
+    border: none;
+  }
+
+  .my-component ul li ul {
+    position: relative;
+    width: 90%;
+    padding: 0 5%;
+    transform: translateX(-100%);
+    display: block;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    transition: transform 400ms ease;
+  }
+
+  .my-component ul li ul li ul {
+    position: initial;
+    top: 0;
+    width: 96%;
+    padding: 0 2%;
+  }
+ 
+
+  .my-component li.active > ul{
+    transform: translateX(0);
+    visibility: visible;
+    height: 100%;
+  }
+
+  .my-component .dropdown > a,
+  .my-component .dropdown > a:hover,
+  .my-component .dropdown.active > a,
+  .my-component .dropdown.active > a:hover {
+    background-position: 95% 50%;
+  }
+}
+
+.my-component .mobile-nav {
+  background: #555;
+  color: #fff;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.my-component .mobile-nav .nav-btn {
+  cursor: pointer;
+}
+
+.my-component ul {
+  list-style: none;
+  display: flex;
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.2rem !important;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}

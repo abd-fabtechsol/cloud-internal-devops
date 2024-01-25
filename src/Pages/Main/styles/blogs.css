@@ -1,0 +1,40 @@
+/* same_code contactUs*/
+.back_img{
+	background-image: url(../../../assets/Blogs/blog_background.png);
+	 background-position: center;
+	   background-repeat: no-repeat;
+	   height: 255px;
+	   background-size:cover;
+	   border-radius: 10px;
+	   color: white;
+       border-radius: 15px;
+}
+.text_hidden{
+                        font-size: 12px;
+                          overflow: hidden;
+                          white-space: nowrap;
+                          text-overflow: ellipsis;
+                          width: 65px;
+                          font-weight: 400;
+}
+.Contact_btn{
+    border-style: none;
+    background-color: #A8CF45;
+    border-radius: 5px;
+}
+.play_img{
+    height: 40px;
+    width: 40px;
+}
+/* same_code contactUs end*/
+.test{
+    border: 2px solid red;
+}
+.blog_profile_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.fs_12{
+    font-size: 13px;
+}

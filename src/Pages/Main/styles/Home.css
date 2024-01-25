@@ -1,0 +1,308 @@
+.test{
+  border: 2px solid red;
+}
+.home-poster{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home/background.png);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+
+
+
+/* .z_index{
+  position: absolute;
+  top: 0;
+} */
+.bi-arrow-right-circle{
+  font-size: 20px;
+}
+.bi-arrow-left-circle{
+  font-size: 20px;
+}
+.form-poster{
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home/background.png);
+    background-size: auto 100%;
+    background-position:center;
+    position: relative;
+}
+.shadow_style {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.shadow_style:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.icon_height{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    background-color: #3A75BB;
+    color: white;
+}
+.dot_style{
+    font-size: 17px;
+}
+.fs_10{
+    font-size: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.fs_14{
+    font-size: 14px;
+    position: relative;
+    bottom: 3px;
+}
+.btn_bg{
+  background-color: #1882C1 !important;
+}
+.bag_style{
+    font-size: 20px;
+}
+.white_space{
+    white-space: nowrap;
+}
+.background_img{
+    background-image: url(../../../assets/Home/home_image.png);
+    height:130px;
+    /* background-size: 100%; */
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    /* padding: 50px 0 50px; */
+}
+.background_border{
+    border: 2px solid white;
+    background-color: #004A90;
+    margin-top: 27px;
+    border-radius: 5px;
+}
+.background_border p{
+font-size: 14px;
+}
+.bg_bag_plus{
+        background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    border-radius: 3px;
+}
+.dubl_color{
+    background-image: linear-gradient(to right,#1A75BB,#A8CF45);
+}
+.border_radu{
+    border-radius: 5px;
+}
+
+
+/* gallary_style */
+
+.image_style{
+    height: 30px;
+    width: 30px;
+}
+
+  /* .cord_style{
+    height: 150px;
+  } */
+
+  .cards {
+    /* margin: 0 auto; */
+    display: grid;
+    grid-gap: 1rem;
+  }
+  .carousel-control-next{
+    justify-content: end !important;
+    right: 20px !important;
+  }
+  .carousel-control-prev{
+    justify-content: start !important;
+    left: 20px !important;
+
+  }
+  .carousel-control-prev{
+    width: 0px !important;
+  }
+  .carousel-control-next{
+    width: 0px !important;
+  }
+  /* Screen larger than 600px? 2 column */
+  /* @media (min-width: 320px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  } */
+  /* Screen larger than 600px? 2 column */
+  /* @media (min-width: 480px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+ 
+  } */
+  /* Screen larger than 600px? 2 column */
+  /* @media (min-width: 767px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+
+  } */
+  /* Screen larger than 600px? 2 column */
+  /* @media (min-width: 991px) {
+    .cards { grid-template-columns: repeat(4, 1fr); }
+
+  } */
+  /* Screen larger than 600px? 2 column */
+  /* @media (min-width: 1199px) {
+    .cards { grid-template-columns: repeat(4, 1fr); }
+
+    .home-poster{
+      min-height:450px;
+    
+  }
+  } */
+
+  /* @media (max-width: 1199px) {
+    .cards { grid-template-columns: repeat(4, 1fr); }
+    .home-poster{
+      min-height:550px;
+    
+  } */
+
+  /* } */
+
+  @media (max-width: 1300px) {
+    .home-poster{
+      min-height:500px !important;
+    
+  }
+      
+   }
+   @media (max-width: 1199px) {
+    /* .home-poster{
+      min-height:500px !important;
+    
+  } */
+      
+   }
+  @media (max-width: 991px) {
+    .home-poster{
+      min-height:60vh;
+    
+  }
+        .fs_md_12{
+          font-size: 12px;
+        }
+   }
+  @media (max-width: 767px) {
+    .background_border p{
+        font-size: 10px;
+        }
+        .fs_md_12{
+          font-size: 12px;
+        }
+        .fs_md_12{
+          font-size: 14px;
+        }
+   }
+   @media (max-width: 576px) {
+    .home-poster{
+      min-height:80vh;
+    
+  }
+    .font50px{
+      margin-top: 30px;
+    }
+    .home-poster{
+      min-height:80vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home/background.png);
+      background-size: cover;
+      background-position:center;
+      position: relative;
+  }
+  .cpr{
+    min-height: 36vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home//cpr.png);
+      background-size: cover;
+      background-position:center;
+      position: relative;
+  }
+  .facebook{
+    min-height: 36vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home//cpr.png);
+      background-size: cover;
+      background-position:center;
+      position: relative;
+  }
+
+   }
+@media (max-width: 400px) {
+
+  .job_fs_size{
+    font-size: 10px;
+  }
+   .font50px{
+    margin-top: 30px;
+    font-size: 0.875rem !important;
+   }
+   /* .cards {
+    max-width: 1400px;
+    display: grid;
+    grid-gap: 1rem;
+  } */
+
+.cpr{
+  min-height: 36vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home/cpr.png);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.facebook{
+  min-height: 36vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home/cpr.png);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.image_style{
+  height: 20px;
+  width: 20px;
+}
+  }
+  @media (max-width: 320px) {
+    .job_fs_size{
+      font-size: 10px;
+    }
+    .cards {
+      max-width: 1400px;
+      display: grid;
+      grid-gap: 1rem;
+    }
+
+ .cpr{
+   min-height: 36vh;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home/cpr.png);
+     background-size: cover;
+     background-position:center;
+     position: relative;
+ }
+ .facebook{
+   min-height: 36vh;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/Home/cpr.png);
+     background-size: cover;
+     background-position:center;
+     position: relative;
+ }
+ .image_style{
+   height: 20px;
+   width: 20px;
+ }
+   }
+
+/* usman css  */
+.home_page{
+  position: absolute;
+  top: 150px;
+
+}
+
+/* Adjust styles for small screens */
+@media (max-width: 768px) {
+  .home_page {
+    top: 50px !important; /* Adjust this based on your mobile design needs */
+  }
+}
+

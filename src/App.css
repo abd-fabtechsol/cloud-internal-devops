@@ -1,0 +1,434 @@
+body {
+  font-family: "rubik", "sans";
+  color: #0d1e3f;
+}
+
+:root {
+  --blue-m: #0d1e3f;
+  --blue-2: #b3d1f2;
+  --light-blue: #b3d1f2;
+  --dark-blue: #0c67d0;
+  --primary: #1a75bb;
+  --light-grey: #afb7be;
+  --wood: #a98c4d;
+  --lightNavy: #6c63ff;
+  --sky: #32abe2;
+  --orangeJuice: #fa7f71;
+  --purple: #201e90;
+  --green: #a8cf45;
+  --grey: #707070;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #808080;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #808080;
+}
+.list_text :hover {
+  color: #dedede !important;
+}
+
+.fs_10 {
+  font-size: 10px !important;
+}
+.fs_14 {
+  font-size: 14px !important;
+}
+.myCustomClass {
+  font-size: 14px !important;
+}
+.matches_box_bg {
+  background-color: #fafafa;
+}
+.fs_5 {
+  font-size: 5px !important;
+}
+.cursor_pointer {
+  cursor: pointer !important;
+}
+
+.clr-blue {
+  color: var(--primary) !important;
+}
+.clr-wood {
+  color: var(--wood) !important;
+}
+.clr-lightNavy {
+  color: var(--lightNavy) !important;
+}
+.clr-sky {
+  color: var(--sky) !important;
+}
+.clr-orangeJuice {
+  color: var(--orangeJuice) !important;
+}
+.clr-purple {
+  color: var(--purple) !important;
+}
+.clr-grey {
+  color: var(--light-grey) !important;
+}
+.clr-white {
+  color: #ffffff !important;
+}
+.clr-black {
+  color: #000000 !important;
+}
+.bg-blue {
+  background-color: var(--primary) !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+.bg-wood {
+  background-color: var(--wood) !important;
+}
+.bg-green {
+  background-color: var(--green) !important;
+}
+.bg-lightNavy {
+  background-color: var(--lightNavy) !important;
+}
+.bg-sky {
+  background-color: var(--sky) !important;
+}
+.bg-orangeJuice {
+  background-color: var(--orangeJuice) !important;
+}
+.bg-purple {
+  background-color: var(--purple) !important;
+}
+.bg-grey {
+  background-color: var(--grey) !important;
+}
+.bg-white {
+  background-color: #ffffff !important;
+}
+.bg-black {
+  background-color: #000000 !important;
+}
+.border-wt {
+  border: 1px solid var(--white) !important;
+}
+
+.test {
+  border: 2px solid red !important;
+}
+.white_space {
+  white-space: nowrap !important;
+}
+/* ==========START ::: Basic=========== */
+.main {
+  /* background: #800020; */
+  /* height: -webkit-fill-available; */
+  min-height: 100vh;
+}
+
+.control_center_sidebar a:hover {
+  color: #dedede !important;
+}
+.control_center_sidebar .active {
+  /* background-color: #BFE1FF; */
+  color: #ffff !important;
+}
+.control_center_sidebar .active svg {
+  color: #ffff !important;
+}
+/* .control_center_sidebar .active  {
+    color: #ffff !important;
+    }
+    .control_center_sidebar .active :hover {
+    color: #ffff !important;
+    }
+    
+    .control_center_sidebar .active svg {
+    color: #ffff !important;
+    } */
+.cam-img {
+  position: absolute;
+  top: 74px;
+  left: 156px;
+  right: 0px;
+}
+.profile-img {
+  position: relative;
+}
+.boder_50 {
+  border-radius: 50% !important;
+}
+.btn_bg {
+  background-color: #fa7f71 !important;
+  color: #fff !important;
+}
+.btn_bg:hover {
+  background-color: #fa7f71;
+  color: #fff;
+}
+.btn_pink{
+  background-color: #D90985 !important;
+  color: white !important;
+}
+.tr_bg {
+  background-color: #afb7be !important;
+  color: #ffff;
+}
+.react-bootstrap-table table {
+  table-layout: auto !important;
+}
+.topnav_bg {
+  background-color: #afb7be;
+}
+thead {
+  background-color: var(--light-grey);
+  text-align: center;
+  color: var(--white) !important;
+}
+tbody {
+  text-align: center;
+}
+tr {
+  border-bottom: 2px solid #d3d3d3 !important;
+}
+td,
+th {
+  padding: 1rem;
+}
+.search-input {
+  width: 100% !important;
+}
+
+.rdw-editor-main {
+  height: 70vh !important;
+  border: 2px solid grey !important;
+  color: black;
+}
+.background_per_deim {
+  background-image: url(../src/assets/Per\ Diem\ Nursing.jpg);
+  height: 300px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* filter: brightness(40%); */
+  object-fit: cover;
+  /* padding: 50px 0 50px; */
+}
+
+.background_emergency {
+  background-image: url(../src/assets/emergency-managment-sysytem.jpg);
+  height: 300px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* filter: brightness(40%); */
+  object-fit: cover;
+  /* padding: 50px 0 50px; */
+}
+
+.background_flat_pool {
+  background-image: url(../src/assets/floot-pool.jpg);
+  height: 300px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* filter: brightness(40%); */
+  object-fit: cover;
+  /* padding: 50px 0 50px; */
+}
+
+.background_Allied_color {
+  background-image: url(../src/assets/allied.jpg);
+  height: 300px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* filter: brightness(40%); */
+  object-fit: cover;
+  /* padding: 50px 0 50px; */
+}
+
+.background_benefits {
+  background-image: url(../src/assets/benefits-page.jpg);
+  height: 500px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* filter: brightness(40%); */
+  object-fit: cover;
+  /* padding: 50px 0 50px; */
+}
+.background_hireTalent {
+  background-image: url(../src/assets/telent\ managment.jpg);
+  height: 500px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* filter: brightness(40%); */
+  object-fit: cover;
+  /* padding: 50px 0 50px; */
+}
+
+/* Jobs */
+.bg-job {
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../src/assets/DirectHire/e-l.jpg);
+  background-size: cover;
+}
+
+/* Blogs */
+.bg-blog {
+  height: 400px;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../src/assets/healthcare\ staffing.jpg);
+  background-size: cover;
+}
+
+/* About */
+.bg-about {
+  height: 400px;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../src/assets/aboutimg.jpg);
+  background-size: cover;
+}
+
+/* Facilities */
+.bg-facilities {
+  height: 800px;
+  background-repeat: no-repeat;
+  background: url(https://www.intelycare.com/wp-content/uploads/2022/05/Facilities-we-serve.jpg);
+  background-size: cover;
+}
+
+/* direct hire */
+.bg-direct-hire {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/DirectHire/direct-hire.jpg);
+  /* filter: brightness(60%); */
+  background-size: cover;
+}
+.bg-travel {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/travel/travel-nurse.jpg);
+  /* filter: brightness(60%); */
+  background-size: cover;
+}
+.bg-travel2 {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-color: rgba(176, 216, 248, 0.5);
+  /* filter: brightness(60%); */
+  width: 100%;
+}
+
+.nursing ul {
+  list-style-type: " ★ ";
+}
+
+.nursing ul li::marker {
+  color: #ff6700;
+}
+
+.bg-color-direct-hire {
+  background-color: rgba(176, 216, 248, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-health-care {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/healthcare/healthcare.png);
+  filter: brightness(60%);
+  background-size: cover;
+}
+.dropdown-menu-full-width {
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+/* .dropdown-menu-full-width li:hover > .dropdown-item {
+  background-color: transparent;
+  color: #212529;
+} */
+.menu-paper {
+  width: 100%;
+}
+
+.no-flag-icon + .react-phone-number-input__icon {
+  display: none;
+}
+
+.agency-status {
+  display: flex;
+  align-items: center;
+}
+
+.status-circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.dropdown-menu-lg-start[data-bs-popper] {
+  right: auto;
+  left: -35px !important;
+}
+
+.dropdown-menu.show {
+  width: 14rem !important;
+}
+
+.site .active {
+  /* background-color: #1976d2; */
+  border-bottom: 1px solid rgb(45, 128, 192) !important;
+  transition: all 1s ease-in-out;
+}
+
+/* @media (max-width: 991px) {
+  .active{
+    border-bottom: 1px solid rgb(45,128,192) !important;
+    transition: all 1s ease-in-out;
+  }
+} */
+.homee {
+  width: max-content;
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu.show {
+    width: 15rem !important;
+    /* You can also adjust other styles here if needed */
+  }
+}
